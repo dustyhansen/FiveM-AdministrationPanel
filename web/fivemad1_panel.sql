@@ -65,10 +65,10 @@ CREATE TABLE `communities` (
   `ID` int(255) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `owner` varchar(255) NOT NULL,
-  --`email` varchar(255) NOT NULL DEFAULT '',
+  /*`email` varchar(255) NOT NULL DEFAULT '',*/
   `time` int(11) NOT NULL,
   `uniqueid` varchar(255) NOT NULL,
-  --`active` tinyint(1) NOT NULL DEFAULT '1',
+  /*`active` tinyint(1) NOT NULL DEFAULT '1',*/
   PRIMARY KEY (`ID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1799 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
