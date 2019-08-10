@@ -5,18 +5,18 @@
 	
 
 	// DATABASE SETTINGS
-	$GLOBALS['mysql_host'] = "";										// MySQL Host
-	$GLOBALS['mysql_user'] = "";										// MySQL User
-	$GLOBALS['mysql_pass'] = "";										// MySQL Password
-	$GLOBALS['mysql_db'] = "";											// MySQL Database
+	$GLOBALS['mysql_host'] = "localhost";										// MySQL Host
+	$GLOBALS['mysql_user'] = "adminpanel";										// MySQL User
+	$GLOBALS['mysql_pass'] = "LCRPapproot6970";										// MySQL Password
+	$GLOBALS['mysql_db'] = "adminpanel";											// MySQL Database
 	
 	// CRON SETTINGS
-	$GLOBALS['phpbin'] = "/opt/cpanel/ea-php70/root/usr/bin/lsphp"; 	// Used for Multithreading (Set to EXE Location for Windows) (Find Linux Bin via cPanel Info) (Defaulted to ELHostingServices)
+	$GLOBALS['phpbin'] = "/opt/lampstack-7.3.7-1/php/bin"; 	// Used for Multithreading (Set to EXE Location for Windows) (Find Linux Bin via cPanel Info) (Defaulted to ELHostingServices)
 
 	// SITE SETTINGS
-	$GLOBALS['domainname'] = "http://example.com/example/";				// URL (and folder if used) with protocol and trailing slash. Example: https://arthurmitchell.xyz/beta/
-	$GLOBALS['subfolder'] = "/example"; 								// If accessing via a sub folder type the sub folder name out like the following: /foldername Example: /staff otherwise leave blank
-	$GLOBALS['apikey'] = "";								 			// SteamCommunity API Key https://steamcommunity.com/dev/apikey
-	date_default_timezone_set('America/New_York');						// Timezone (http://php.net/manual/en/timezones.php)
+	$GLOBALS['domainname'] = "http://app.lakecountyrp.com/status/";				// URL (and folder if used) with protocol and trailing slash. Example: https://arthurmitchell.xyz/beta/
+	$GLOBALS['subfolder'] = ""; 								// If accessing via a sub folder type the sub folder name out like the following: /foldername Example: /staff otherwise leave blank
+	$GLOBALS['apikey'] = "2052FB2D69FF4D55477F889B52401F17";								 			// SteamCommunity API Key https://steamcommunity.com/dev/apikey
+	date_default_timezone_set('America/Chicago');						// Timezone (http://php.net/manual/en/timezones.php)
 	
 ?>
