@@ -511,9 +511,9 @@ $klein->respond('*', function ($request, $response, $service) {
     }
 
     // Send Message to Staff Discord
-    /*function staffDiscordMessage($title, $message)
+    function staffDiscordMessage($title, $message)
     {
-        $webhook = "https://discordapp.com/api/webhooks/545868296558477332/yyqdyFsMo4W0f7LX9oKjTDF31cr6g1Ezkg6ETxiyJYLMpDHfQ4ITJvwndtClIcRdaEDS";
+        $webhook = "https://ptb.discordapp.com/api/webhooks/609890469111136286/MRJSfHrp5X5L2j8rqUfR4LE3_o7KZHhIGhcobAY0qo5WFEcBreHTEHVGMAcOG9Egn8UR";
         if (empty($webhook) || $webhook == null) {
             return;
         }
@@ -541,7 +541,7 @@ $klein->respond('*', function ($request, $response, $service) {
         curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode(json_decode($discordMessage)));
         curl_exec($curl);
         curl_close($curl);
-    }*/
+    }
     // Decimal to Hex
     function dec2hex($number)
     {
