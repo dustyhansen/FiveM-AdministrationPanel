@@ -1,6 +1,6 @@
 [  
     {  
-        "url": "http://173.199.90.145/staff/",
+        "url": "http://173.199.90.145/staff",
         "communityid": "872F2F28FFDBF3A7966EAD899140ADF2",
         "prefix": "^8[Staff Panel]",
         "ban_message": "🔴 You've Been Banned! 🔴\n⚫ Banned By: {ban_staff} \n⚫ Ban Reason: {ban_reason} \n⚫ Ban Issued: {ban_issued} \n⚫ Ban Expires: {ban_expires}",
